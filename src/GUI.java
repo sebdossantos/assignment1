@@ -77,5 +77,7 @@ public class GUI
 
     public void setData(byte data[]){
         this.data = data;
+        System.out.print("setData");
+        System.out.print(data+", ");
     }
 }
