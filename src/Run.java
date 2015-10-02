@@ -19,6 +19,9 @@ public class Run
     **/
     public static void main(String[] args)
     {
-        new GUI();
+        GUI gui = new GUI();
+        while(true){
+            gui.setData(gui.getData());
+        }
     }
 }

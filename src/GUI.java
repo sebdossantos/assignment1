@@ -27,6 +27,7 @@ public class GUI
     private JPanel tablePanel[][];
 
     private JFrame frame;
+    private byte data[];
 
    /**
     * Method     : GUI::GUI()
@@ -71,5 +72,12 @@ public class GUI
 
     private void createUIComponents() {
         // TODO: place custom component creation code here
+    }
+
+    public byte[] getData(){
+        return (data);
+    }
+    public void setData(byte data[]){
+
     }
 }
