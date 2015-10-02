@@ -208,4 +208,8 @@ public class SerialPort implements SerialPortEventListener
 		SerialPort sp = new SerialPort();
 		sp.initialize();
 	}
+
+    public byte[] getData(){
+        return (data);
+    }
 }

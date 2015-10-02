@@ -39,6 +39,7 @@ public class GUI
     public GUI()
     {
         start();
+
     }
 
    /**
@@ -74,10 +75,7 @@ public class GUI
         // TODO: place custom component creation code here
     }
 
-    public byte[] getData(){
-        return (data);
-    }
     public void setData(byte data[]){
-
+        this.data = data;
     }
 }

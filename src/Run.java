@@ -17,11 +17,16 @@ public class Run
     * Returns    : Nothing.
     * Notes      : None.
     **/
+
     public static void main(String[] args)
     {
         GUI gui = new GUI();
+        serializer.SerialPort sp = new serializer.SerialPort();
+
+        sp.initialize();
+
         while(true){
-            gui.setData(gui.getData());
+            gui.setData(sp.getData());
         }
     }
 }
